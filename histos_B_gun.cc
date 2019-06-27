@@ -418,7 +418,7 @@ int main() {
 	
 	
 
-	TString ODIRNAME = "./_CROSSCHECKS_B_GUN";
+	TString ODIRNAME = "./histos";
 
 	/** c1A ************************************************************/
 	c1A->cd();
