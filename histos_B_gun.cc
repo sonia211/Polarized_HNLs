@@ -60,9 +60,9 @@ std::vector<std::vector<double>> file_to_vec(string filename);
 
 int main() {
 	
-	TString FILENAME0 = "./trees/tree_Bgun_OS_25.root";
-	TString FILENAME1 = "./trees/tree_Bgun_SS.root";
-	TString FILENAME2 = "./trees/tree_Bgun_OS.root";
+	TString FILENAME0 = "./tree_Bgun_OS_25.root";
+	TString FILENAME1 = "./tree_Bgun_SS.root";
+	TString FILENAME2 = "./tree_Bgun_OS.root";
 	//TString FILENAME3 = "./trees/tree_Bgun_SS.root";
 //TString FILENAME4 = "./trees/tree_Bgun_SS.root";
 
@@ -418,7 +418,7 @@ int main() {
 	
 	
 
-	TString ODIRNAME = "./histos";
+	TString ODIRNAME = ".";
 
 	/** c1A ************************************************************/
 	c1A->cd();
